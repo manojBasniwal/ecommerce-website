@@ -1,0 +1,25 @@
+.hero-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .hero-section-data{
+        .btn{
+            border: none;
+            color: white;
+            background-color: rgb(98 84 243);
+        }
+    }
+    .hero-section-img{
+        img{
+            width: 100%;
+        }
+    }
+}
+@media screen and (max-width:768px){
+    .hero-section{
+        padding-top: 60px;
+        padding-bottom: 10px;
+    }
+    .hero-section-data{
+        margin-bottom: 30px;
+    }
+}

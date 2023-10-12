@@ -13,14 +13,11 @@ function NavbarHeader() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
             <NavLink className="item" to="/">HOME</NavLink>
-            <NavLink className='item' to="/men">ABOUT</NavLink>
-            <NavLink className='item' to="/women">Products</NavLink>
-            <NavLink className='item' to="/about">Contact</NavLink>
-            {/* <NavLink to={`/cart`}>
-                <i className="fa-solid fa-cart-shopping" ></i>
-              </NavLink> */}
+            <NavLink className='item' to="/about">ABOUT</NavLink>
+            <NavLink className='item' to="/products">Products</NavLink>
+            <NavLink className='item' to="/contact">Contact</NavLink>
           </Nav>
-          <NavLink to={`/cart`}>
+          <NavLink to={`/cart`} className='bell-notification' current-count='8'>
                 <i className="fa-solid fa-cart-shopping" ></i>
               </NavLink>
         </Navbar.Collapse>

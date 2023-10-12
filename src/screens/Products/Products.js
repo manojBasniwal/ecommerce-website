@@ -1,10 +1,11 @@
 import React from 'react'
+import PageWidthNavbar from '../../components/PageWidthNavbar'
 
 function Products() {
   return (
-    <div>
+    <PageWidthNavbar>
       Products
-    </div>
+    </PageWidthNavbar>
   )
 }
 

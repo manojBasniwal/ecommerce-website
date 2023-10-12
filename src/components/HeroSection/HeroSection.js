@@ -1,15 +1,17 @@
 import React from 'react';
 import {NavLink } from 'react-router-dom'
 
-function HeroSection() {
+function HeroSection({myData}) {
+
+    const {name} = myData
     return (
         <div className='container hero-section'>
             <div className='row'>
                 <div className='col-12 col-md-6'>
                     <div className='hero-section-data'>
-                        <p className='intro-data'>Welcome to</p>
-                        <h1>Manoj Store</h1>
-                        <p>Lorem ipsum dolor sit amit consectetur adipisicing elit. Molestias atque temporibus veniam doloribus libero ad error omnis voluptates animi! Suscipit sapiente.</p>
+                        <p className='intro-data m-0'>Welcome to</p>
+                        <h1><b>{name}</b></h1>
+                        <p className='pt-3 pb-3'>Lorem ipsum dolor sit amit consectetur adipisicing elit. Molestias atque temporibus veniam doloribus libero ad error omnis voluptates animi! Suscipit sapiente.</p>
                         <NavLink>
                             <button className='btn'>show now</button>
                         </NavLink>

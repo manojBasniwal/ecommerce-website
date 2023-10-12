@@ -1,10 +1,11 @@
 import React from 'react'
+import PageWidthNavbar from '../../components/PageWidthNavbar'
 
 function Contact() {
   return (
-    <div>
+    <PageWidthNavbar>
       Contact
-    </div>
+    </PageWidthNavbar>
   )
 }
 

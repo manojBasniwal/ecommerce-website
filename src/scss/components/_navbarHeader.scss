@@ -17,11 +17,30 @@
             color: rgba(0, 0, 0, 0.5);
 
         }
+        .bell-notification{
+            position: relative;
+            color: white;
 
-        .fa-cart-shopping {
-            font-size: 25px;
-            cursor: pointer;
-            color: black;
+            &::after{
+                content: attr(current-count);
+                position: absolute;
+                top: -11px;
+                right: -6px;
+                width: 19px;
+                height: 19px;
+                border-radius: 50%;
+                background-color: blue;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+
+            .fa-cart-shopping {
+                font-size: 25px;
+                cursor: pointer;
+                color: black;
+            }
         }
 
         .btn-logout {

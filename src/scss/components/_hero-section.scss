@@ -9,6 +9,19 @@
         }
     }
     .hero-section-img{
+        figure{
+            position: relative;
+           &::after{
+            content: '';
+            width: 50%;
+            height: 80%;
+            left: 57%;
+            top: -2rem;
+            z-index: -1;
+            position: absolute;
+            background-color: rgba(81, 56, 238, 0.4);
+           } 
+        }
         img{
             width: 100%;
         }

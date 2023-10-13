@@ -7,6 +7,7 @@ import Contact from './screens/Contact';
 import SingleProduct from './screens/SingleProduct';
 import Cart from './screens/Cart';
 import ErrorPage from "./screens/ErrorPage";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route exact path='/cart' element={<Cart />} />
           <Route exact path='/errorpage' element={<ErrorPage />} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
   );
 }

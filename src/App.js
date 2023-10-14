@@ -20,7 +20,7 @@ function App() {
           <Route exact path='/contact' element={<Contact />} />
           <Route exact path='/singleproduct/:id' element={<SingleProduct />} />
           <Route exact path='/cart' element={<Cart />} />
-          <Route exact path='/errorpage' element={<ErrorPage />} />
+          <Route exact path='*' element={<ErrorPage />} />
         </Routes>
         <Footer/>
       </BrowserRouter>

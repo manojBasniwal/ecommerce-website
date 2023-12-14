@@ -5,12 +5,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './scss/main.scss';
 import reportWebVitals from './reportWebVitals';
 import { AppProvider } from './context/productcontext';
+import { FilterContextProvider } from './context/filter-context';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
   <AppProvider>
-    <App />
+    <FilterContextProvider>
+      <App />
+    </FilterContextProvider>
   </AppProvider>
   // </React.StrictMode>
 );

@@ -1,13 +1,7 @@
 .hero-section{
     padding-top: 100px;
     padding-bottom: 100px;
-    .hero-section-data{
-        .btn{
-            border: none;
-            color: white;
-            background-color: rgb(98 84 243);
-        }
-    }
+
     .hero-section-img{
         figure{
             position: relative;
@@ -34,5 +28,8 @@
     }
     .hero-section-data{
         margin-bottom: 30px;
+    }
+    .hero-section-img figure::after{
+        content: none!important;
     }
 }

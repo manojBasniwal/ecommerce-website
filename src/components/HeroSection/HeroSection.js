@@ -7,13 +7,13 @@ function HeroSection({myData}) {
     return (
         <div className='container hero-section'>
             <div className='row'>
-                <div className='col-12 col-md-6'>
+                <div className='col-12 col-md-6 d-flex align-items-center'>
                     <div className='hero-section-data'>
                         <p className='intro-data m-0'>Welcome to</p>
                         <h1><b>{name}</b></h1>
                         <p className='pt-3 pb-3'>Lorem ipsum dolor sit amit consectetur adipisicing elit. Molestias atque temporibus veniam doloribus libero ad error omnis voluptates animi! Suscipit sapiente.</p>
                         <NavLink>
-                            <button className='btn'>show now</button>
+                            <button className='button'>show now</button>
                         </NavLink>
                     </div>
                 </div>

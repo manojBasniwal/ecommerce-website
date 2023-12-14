@@ -34,7 +34,7 @@ function Footer() {
                                     <h4>Subscribe to get important updates</h4>
                                     <form action='#'>
                                         <input type='email' placeholder='your email' className='email mb-3' />
-                                        <input type='submit' value='submit' />
+                                        <input className='button' type='submit' value='submit' />
                                     </form>
                                 </div>
                             </div>
@@ -43,14 +43,14 @@ function Footer() {
                                     <h4>Follow us</h4>
                                     <div className='footer-social-icons'>
                                         <span className='icons me-2'>
-                                            <i class="fa-brands fa-discord"></i>
+                                            <i className="fa-brands fa-discord"></i>
                                         </span>
                                         <span className='icons me-2'>
-                                            <i class="fa-brands fa-square-instagram"></i>
+                                            <i className="fa-brands fa-square-instagram"></i>
                                         </span>
                                         <a href='https://www.youtube.com/' target='_blank'>
                                             <span className='icons'>
-                                                <i class="fa-brands fa-youtube"></i>
+                                                <i className="fa-brands fa-youtube"></i>
                                             </span>
                                         </a>
                                     </div>
@@ -58,7 +58,7 @@ function Footer() {
 
                             </div>
                             <div className='col-12 col-md-6 col-lg-3'>
-                                <div classname='footer-contact'>
+                                <div className='footer-contact'>
                                     <h4>Call Us</h4>
                                     <h5>+91 8824074161</h5>
                                 </div>

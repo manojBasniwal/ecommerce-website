@@ -1,0 +1,29 @@
+.section{
+    padding: 5rem 0;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    background-color: rgb(248, 249, 250);
+
+    .container{
+        .comman-heading{
+            margin-bottom: 60px;
+        }
+
+        .product-section{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            justify-items: center;
+            grid-row-gap: 1rem;
+        }
+    }
+    @media screen and (max-width:992px){
+        .product-section{
+            grid-template-columns: 1fr 1fr!important;
+        }
+    }
+    @media screen and (max-width:576px){
+        .product-section{
+            grid-template-columns: 1fr!important;
+        }
+    }
+}

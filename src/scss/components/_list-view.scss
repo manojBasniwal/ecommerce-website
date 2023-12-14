@@ -1,0 +1,17 @@
+.list-view-section{
+    .cards{
+        margin-bottom: 20px;
+        border: 1px solid black;
+
+        figure{
+            margin-top: 15px;
+            img{
+                width: 100%;
+            }
+        }
+        .card-data-section{
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+    }
+}

@@ -13,7 +13,7 @@ function Services() {
                 <div className='col-12 col-md-4'>
                     <div className='services-2'>
                         <div className='services-colum-2'>
-                            <i class="fa fa-shield-halved icon"></i>
+                            <i className="fa fa-shield-halved icon"></i>
                             <h5 className='ms-2'>Non-contact Shipping</h5>
                         </div>
                         <div className='services-colum-2'>

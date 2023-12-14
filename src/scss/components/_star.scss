@@ -1,0 +1,17 @@
+.icon-style{
+    margin-bottom: 10px;
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+    justify-content: center;
+
+    .icon{
+        font-size: 22px;
+        color: orange;
+    }
+
+    p{
+        margin: 0;
+        padding-left: 1.2rem;
+    }
+}

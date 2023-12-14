@@ -1,0 +1,52 @@
+.card-section{
+    text-decoration: none;
+    .card{
+        background-color: white;
+        border-radius: 1rem;
+        width: 15rem;
+    
+        figure{
+            width: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+    
+        img{
+            max-width: 90%;
+            margin-top: 1.5rem;
+            height: 12rem;
+        }
+        .caption{
+            position: absolute;
+            top: 15%;
+            right: 10%;
+            text-transform: uppercase;
+            background-color: white;
+            color: blue;
+            padding: 5px 10px;
+            border-radius: 2rem;
+        }
+    
+        .card-data{
+            padding: 0 1rem;
+    
+            .card-data-flex{
+                margin: 10px 0;
+                display: flex;
+                justify-content: space-between;
+                
+    
+                h6{
+                    text-transform: capitalize;
+                    text-decoration: none;
+                }
+                .card-data-price{
+                    color: blue;
+                }
+            }
+        }
+    }
+}
